@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import ICard from './Component/ICard'
+import ICardGallery from './Component/ICardGallery'
 
 
 function App() {
@@ -14,7 +15,9 @@ function App() {
     <>
       
       <div>
-        <><ICard/></>
+        {/* <ICard/> */}
+        <ICardGallery/>
+
       
   {/* <h1 style = {{color: "blue"}}>My REACT App</h1> 
   <h1 style={{color:"pink"}}>Welcome to React</h1>
