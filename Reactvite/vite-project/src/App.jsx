@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import ICard from './Component/ICard'
 import ICardGallery from './Component/ICardGallery'
+import ImdbCard from './Component/ImdbCard'
 
 
 function App() {

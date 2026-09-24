@@ -1,6 +1,6 @@
 import React from 'react'
 import pic from '../images/blue.jpeg';
-function ICard(props){
+function ICard({data}){
     return(
         <>
         <div style={{border:'10px solid red',height:'410px',width:'300px',marginLeft:'200px'}}>
@@ -14,10 +14,10 @@ function ICard(props){
             <h3 style={{color:'white'}}>Add.:Ghaziabad</h3> */}
 
             {/* We use 'props' for it makes a component dynamic/reusable.  */}
-            <img src={props.pic} height={200} width={200}></img>
-            <h3>Roll:{props.roll}</h3>
-            <h3>Name:{props.name}</h3>   
-            <h3>Branch:{props.branch}</h3>
+            <img src={data.pic} height={50} width={50}></img>
+            <h3>Roll:{data.roll}</h3>
+            <h3>Name:{data.name}</h3>   
+            <h3>Branch:{data.branch}</h3>
         </div>
         {/* <div style={{border:'20px solid brown',height:'450px',width:'350p,',marginLeft:'100px'}}>
             <h3>Brand:{props.brand}</h3>
