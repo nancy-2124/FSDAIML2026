@@ -6,18 +6,26 @@ import './App.css'
 import ICard from './Component/ICard'
 import ICardGallery from './Component/ICardGallery'
 import ImdbCard from './Component/ImdbCard'
-
+import StateHandling from './Component/StateHandling'
 
 function App() {
-  let A= 23;
-  let NAME = "John Doe";
 
-  return (
-    <>
+  
+  return(
+  
+    //</><ImdbCard/>
+    <StateHandling/>
+
+  )
+  // let A= 23;
+  // let NAME = "John Doe";
+
+  // return (
+  //   <>
       
-      <div>
-        {/* <ICard/> */}
-        <ICardGallery/>
+  //     <div>
+  //       {/* <ICard/> */}
+  //       <ICardGallery/>
 
       
   {/* <h1 style = {{color: "blue"}}>My REACT App</h1> 
@@ -30,9 +38,9 @@ function App() {
     <h2 style = {{color: "red"}}>Name: {NAME}</h2>
     <h2>Nancy Pal</h2> */}
     
-  </div>   
-    </>
-  )
+  // </div>   
+  //   </>
+  // )
 }
 
 export default App

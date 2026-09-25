@@ -32,9 +32,12 @@ function ICardGallery(){
 //     }
 // ]
 
-    const name=[{
-        Name:'Puneet'
-    }]
+    const name=[
+    {
+        Name:'Spiderman'
+    }
+
+]
     return(
         <div style={{display:'flex'}}>
             {/* <ICard pic='https://www-asia.nissan-cdn.net/content/dam/Nissan/in/vehicles/NissanIntelligentChoice/4-Website-Page-1500x664-241224.jpg.ximg.l_full_m.smart.jpg' roll="234" name="Ram" branch="AIML"/> */}
@@ -48,6 +51,11 @@ function ICardGallery(){
                     <ICard data={ele}/>
                 ))
             } */}
+            {
+                name.map((ele)=>(
+                    <ImdbCard data={ele}/>
+                ))
+            }
 
         </div>
     )
