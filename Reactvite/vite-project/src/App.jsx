@@ -7,6 +7,8 @@ import ICard from './Component/ICard'
 import ICardGallery from './Component/ICardGallery'
 import ImdbCard from './Component/ImdbCard'
 import StateHandling from './Component/StateHandling'
+import Imagemanipulation from './Component/Imagemanipulation'
+//import cat from '../images/kitten/jpeg';
 
 function App() {
 
@@ -14,7 +16,8 @@ function App() {
   return(
   
     //</><ImdbCard/>
-    <StateHandling/>
+    // <StateHandling/>
+    <Imagemanipulation/>
 
   )
   // let A= 23;
