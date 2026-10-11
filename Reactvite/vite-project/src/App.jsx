@@ -8,6 +8,7 @@ import ICardGallery from './Component/ICardGallery'
 import ImdbCard from './Component/ImdbCard'
 import StateHandling from './Component/StateHandling'
 import Imagemanipulation from './Component/Imagemanipulation'
+import SampleuseEffect from './Component/SampleuseEffect'
 //import cat from '../images/kitten/jpeg';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
   
     //</><ImdbCard/>
     // <StateHandling/>
-    <Imagemanipulation/>
+    //<Imagemanipulation/>
+    <SampleuseEffect/>
 
   )
   // let A= 23;
